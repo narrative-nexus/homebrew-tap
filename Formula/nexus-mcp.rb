@@ -6,21 +6,21 @@ class NexusMcp < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/narrative-nexus/narrative-nexus/releases/download/nexus-mcp/v0.1.0/nexus-mcp_darwin_arm64.tar.gz"
-      sha256 "ef1b46c2a0cb2618a0d17b078ccc0010318616c8adfe9b5799e7a3f5fe89cf2b"
+      url "https://github.com/narrative-nexus/homebrew-tap/releases/download/v0.1.0/nexus-mcp_darwin_arm64.tar.gz"
+      sha256 "0df0168bc64055fff2bad0f260e4ec6a6afe51d3cbf4edc3ae33c6ddfd511142"
     else
-      url "https://github.com/narrative-nexus/narrative-nexus/releases/download/nexus-mcp/v0.1.0/nexus-mcp_darwin_amd64.tar.gz"
-      sha256 "db74766d836b42bcf145d3d7d3ff90c177a48d72ca443bd5f4d5a9bc948081d5"
+      url "https://github.com/narrative-nexus/homebrew-tap/releases/download/v0.1.0/nexus-mcp_darwin_amd64.tar.gz"
+      sha256 "8021da614d1e6d68fc14785ddfd23c6a981a8c27fcc22c9f5896e66efd4c9eaa"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/narrative-nexus/narrative-nexus/releases/download/nexus-mcp/v0.1.0/nexus-mcp_linux_arm64.tar.gz"
-      sha256 "2c640a40c5708111dc6383b5c8cb01a7c6b520e46232fa83eb112262846cc9f9"
+      url "https://github.com/narrative-nexus/homebrew-tap/releases/download/v0.1.0/nexus-mcp_linux_arm64.tar.gz"
+      sha256 "c38deec5bf57949d0630cba573b8f33c4c98f07cb2d74e5bb5d19d458436b2d8"
     else
-      url "https://github.com/narrative-nexus/narrative-nexus/releases/download/nexus-mcp/v0.1.0/nexus-mcp_linux_amd64.tar.gz"
-      sha256 "e37d6d6fb62b7118f57e6565a321197856b5ca2a76bbf6761ae086d97e020cda"
+      url "https://github.com/narrative-nexus/homebrew-tap/releases/download/v0.1.0/nexus-mcp_linux_amd64.tar.gz"
+      sha256 "8a278668a63af00bcf7a3a3874486bc5d17213aded2206bb09630885ace1ce30"
     end
   end
 
